@@ -138,8 +138,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     class MenbiBean {
-        private float INIT_V = 6f;
-        private float INIT_A = 0.9f;
+        private float INIT_V = 4f;
+        private float INIT_A = 1.2f;
 
         public Matrix matrix = new Matrix();
         public float x, y, distance, v = INIT_V, a = INIT_A, angle, angle_z;
